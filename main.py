@@ -1,8 +1,8 @@
 # Example file showing a circle moving on screen
 import pygame
+pygame.init()
 
 # pygame setup
-pygame.init()
 screen = pygame.display.set_mode((1920, 1200))
 clock = pygame.time.Clock()
 running = True
